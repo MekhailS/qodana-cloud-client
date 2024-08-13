@@ -24,4 +24,5 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          use-caches: false
+          use-caches: 'false'
+          pr-mode: 'false'
